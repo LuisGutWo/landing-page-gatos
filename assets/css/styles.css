@@ -38,26 +38,27 @@ img {
 }
 
 /* main section */
+.row-gap-8 {
+  row-gap: 32px;
+}
 
-.content {
-  height: 460px;
-  margin-top: 40px;
-  text-align: center;
+main {
+  height: auto;
+  background-color: #2C3639;
+}
+
+.main-contet {
+  background-color: #2C3639;
+}
+
+.container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  gap: 10px 30px;
-}
-.container-description {
-  width: 26%;
-}
-.container-description img {
-  height: 150px;
-  width: min-content;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.container-description p {
-  font-size: 1.5rem;
+.card h3 {
+  font-size: 1rem;
   padding-top: 30px;
   text-align: center;
   font-family: "Work Sans", sans-serif;
