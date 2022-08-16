@@ -45,6 +45,7 @@ img {
 main {
   height: auto;
   background-color: #2C3639;
+  padding-block: 3rem;
 }
 
 .main-contet {
@@ -52,30 +53,66 @@ main {
 }
 
 .container {
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
+}
+.card-body {
+  background-color: #3F4E4F;
+}
+.main-content {
+  text-align: center;
+
 }
 
-.card h3 {
-  font-size: 1rem;
-  padding-top: 30px;
-  text-align: center;
-  font-family: "Work Sans", sans-serif;
-}
+
+
 
 /* imq gallery */
 .gallery {
-  background-color: #531d00;
-  height: 400px;
-  width: 100%;
+  background-color: #A27B5C;
+  padding: 4rem;
+  height: auto;
   display: flex;
-  align-content: center;
   align-items: center;
   justify-content: space-evenly;
 }
-.gallery-image {
-  height: 240px;
-  width: min-content;
-  border: 1px solid #61481c;
+ .container-gallery {
+  display: "flex";
+  justify-content: center;
+ }
+ 
+/* caracteristics icons */
+
+
+
+.characteristics {
+  height: auto;
+  background-color: #3F4E4F;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.characteristics .characteristics-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.icon-group {
+  text-align: center;
+}
+.icon-group i {
+  font-size: 3rem;
+}
+
+.icon-group p {
+  font-size: 2rem;
+  font-family: "Raleway" light, sans-serif;
+}
+.icon-group:hover {
+  color: #ca955c;
+  border: #000000;
 }
