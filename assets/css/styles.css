@@ -8,14 +8,14 @@ html {
 }
 
 body {
-  background-color: black;
-  color: beige;
+  color: whitesmoke;
 }
 
 /* nav-h1  */
 
-nav {
-  height: 100px;
+.headder-title {
+  height: auto;
+  border: 1rem solid black;
   background-color: black;
 }
 .nav {
@@ -61,9 +61,6 @@ img {
   padding-top: 30px;
   text-align: center;
   font-family: "Work Sans", sans-serif;
-}
-
-.main-description {
 }
 
 /* imq gallery */
